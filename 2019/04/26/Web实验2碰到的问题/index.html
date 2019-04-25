@@ -401,6 +401,37 @@
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  479
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1
+                </span>
+              
+            </div>
+          
 
           
 
@@ -433,7 +464,7 @@
 </ol>
 <h2 id="Solutions"><a href="#Solutions" class="headerlink" title="[Solutions]"></a>[Solutions]</h2><ol>
 <li><p>打开terminal，如下操作：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">cd /etc/apache2</span><br><span class="line"><span class="meta">#</span>open httpd.conf</span><br><span class="line">sudo vim httpd.conf</span><br><span class="line"><span class="meta">#</span>然后找到LoadModule php7_module···这条语句</span><br><span class="line"><span class="meta">#</span>将其修改为你系统内的libphp7.so的路径,我使用了自带的，所以便只是将改语句句首的 # 号去掉，变为：</span><br><span class="line">LoadModule php7_module libexec/apache2/libphp7.so</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">cd /etc/apache2</span><br><span class="line"><span class="meta">#</span><span class="bash">open httpd.conf</span></span><br><span class="line">sudo vim httpd.conf</span><br><span class="line"><span class="meta">#</span><span class="bash">然后找到LoadModule php7_module···这条语句</span></span><br><span class="line"><span class="meta">#</span><span class="bash">将其修改为你系统内的libphp7.so的路径,我使用了自带的，所以便只是将改语句句首的 <span class="comment"># 号去掉，变为：</span></span></span><br><span class="line">LoadModule php7_module libexec/apache2/libphp7.so</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>将文件移动到Apache根目录下即可；</p>
 </li>
@@ -661,7 +692,7 @@
       <div class="footer-inner">
         <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
-    <i class="fa fa-burn"></i>
+    <i class="fa fa-user"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Xthon</span>
 
