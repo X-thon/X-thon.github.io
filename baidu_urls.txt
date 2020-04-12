@@ -1,3 +1,3 @@
 http://xthon.cn/posts/Mac安装并配置MongoDB/
 http://xthon.cn/posts/Web实验2碰到的问题/
-http://xthon.cn/posts/Hello-World/
+http://xthon.cn/posts/Win10下利用github+hexo搭建博客/
