@@ -1,3 +1,4 @@
+http://xthon.cn/posts/Mac-vscode更新失败的解决方法/
 http://xthon.cn/posts/Flak-pyenv-gunicorn-nginx-supervisor初次部署总结/
 http://xthon.cn/posts/Mac安装并配置MongoDB/
 http://xthon.cn/posts/Web实验2碰到的问题/
